@@ -4,7 +4,107 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /*content*/
 
 
 /*utility*/
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.color-white{
+    color: white;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+/*utility-dim*/
+
+.p50{
+    padding: 50px;
+}
+
+.m50{
+    margin: 50px;
+}
+
+.h400{
+    height: 400px;
+}
+
+.h200{
+    height: 200px;
+}
+
+.h100{
+    height: 100px;
+}
+
+.side-col{
+    width: 20%;
+}
+
+.mid-col{
+    width: 60%;
+}
+
+/*utility-flex*/
+
+.d-flex{
+    display: flex;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+/*utility-position*/
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
+.pos-fixed{
+    position: fixed;
+}
+
+.pos-sticky{
+    position: sticky;
+}
