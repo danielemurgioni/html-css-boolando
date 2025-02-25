@@ -42,16 +42,20 @@ main img{
     text-align: center;
 }
 
-main ul li{
+ul li{
     list-style: none;
 }
 
-.brand, .cost, .discount, .material{
+.brand, .cost, .discount, .material, #info a{
     font-size: 12px;
 }
 
 .product{
     font-size: 17px;
+}
+
+#social a{
+    font-size: 25px;
 }
 
 .disc-cost{
@@ -90,10 +94,6 @@ main ul li{
 
 .font-w600{
     font-weight: 600;
-}
-
-.txt-left{
-    text-align: left;
 }
 
 .txt-center{
@@ -163,7 +163,7 @@ main ul li{
 }
 
 .col33{
-    width: 30%;
+    width: 32%;
 }
 
 /*utility-flex*/
