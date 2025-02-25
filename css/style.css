@@ -66,6 +66,15 @@ ul li{
     text-decoration: line-through;
 }
 
+.hover-img{
+    left: 0;
+    z-index: -1;
+}
+
+.front-img:hover{
+    opacity: 0;
+}
+
 /*utility*/
 
 .bg-white{
