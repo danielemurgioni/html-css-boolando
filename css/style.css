@@ -113,14 +113,6 @@ ul li{
     text-align: right;
 }
 
-.v-align{
-    vertical-align: middle;
-}
-
-.inl-block{
-    display: inline-block;
-}
-
 /*utility-dim*/
 
 .gap15{
@@ -131,28 +123,12 @@ ul li{
     padding: 20px;
 }
 
+.py20{
+    padding: 20px 10px 20px 0;
+}
+
 .p5{
     padding: 5px;
-}
-
-.m50{
-    margin: 50px;
-}
-
-.m5{
-    margin: 5px;
-}
-
-.h400{
-    height: 400px;
-}
-
-.h200{
-    height: 200px;
-}
-
-.h100{
-    height: 100px;
 }
 
 .side-col{
@@ -165,10 +141,6 @@ ul li{
 
 .full-col{
     width: 100%;
-}
-
-.col80{
-    width: 80%;
 }
 
 .col33{
