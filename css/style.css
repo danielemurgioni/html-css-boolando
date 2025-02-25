@@ -24,18 +24,52 @@ a{
     width: 20%;
 }
 
+main img{
+    width: 100%;
+}
+
+.label{
+    top: 80%;
+}
+
+.favourite{
+    right: 10px;
+    bottom: 85%;
+    font-size: 180%;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+main ul li{
+    list-style: none;
+}
+
+.brand, .cost, .discount, .material{
+    font-size: 12px;
+}
+
+.product{
+    font-size: 17px;
+}
+
+.disc-cost{
+    color: red;
+}
+
+.og-cost{
+    text-decoration: line-through;
+}
+
 /*utility*/
 
-.border-black{
-    border: 2px solid black;
+.bg-white{
+    background-color: white;
 }
 
 .bg-orange{
     background-color: orange;
-}
-
-.bg-lightgrey{
-    background-color: lightgrey;
 }
 
 .bg-red{
@@ -52,6 +86,10 @@ a{
 
 .color-white{
     color: white;
+}
+
+.font-w600{
+    font-weight: 600;
 }
 
 .txt-left{
@@ -76,12 +114,24 @@ a{
 
 /*utility-dim*/
 
+.gap15{
+    gap: 15px;
+}
+
 .p20{
     padding: 20px;
 }
 
+.p5{
+    padding: 5px;
+}
+
 .m50{
     margin: 50px;
+}
+
+.m5{
+    margin: 5px;
 }
 
 .h400{
@@ -113,7 +163,7 @@ a{
 }
 
 .col33{
-    width: 33%;
+    width: 30%;
 }
 
 /*utility-flex*/
